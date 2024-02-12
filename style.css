@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 90% !important;
+}
+
+img.logoImg {
+    width: 130px;
+}
+
+.menu ul li a {
+    color: white;
+    font-size: 22px;
+    margin: 0px 20px;
+}
+.top.contact{
+    background-image: url(./assests/contactImg.jpeg);
+    background-position: top;
+}
+
+.top {
+    background-image: url(./assests/MainImage.jpeg);
+    height: max-content;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.mainWRT button a {
+    color: white;
+    text-decoration: none;
+}
+.bg-color {
+    height: max-content;
+    background-color: #00000080;
+}
+
+.contain{
+    /* width: 100%; */
+    margin: 0 auto;
+    /* position: fixed; */
+    background: #262626;
+    padding: 0px 60px
+}
+
+.mainWRT{
+    color: white;
+    width: 83%;
+    margin: 0px auto;
+    padding: 100px 0px;
+}
+
+.mainWRT p{
+    margin-left: 70px;
+    width: 80%;
+    margin-top: 40px;
+}
+
+.mainWRT button{
+    padding: 8px 40px ;
+    border: 3px solid #8785e9;
+    background: none;
+    border-radius: 5px;
+    color: white;
+    transition: 0.5s;
+    margin-left: 50%;
+    margin-top: 40px;
+}
+
+.mainWRT button:hover{
+    background-color: #8785e9;
+    transition: 0.5s;
+    border:  3px solid #6765e2;
+}
+
+.arts {
+    margin: 0 auto;
+    width: 96%;
+}
+
+.arts h1 {
+    margin-top: 30px;
+}
+
+.sectionArt {
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.sectionArt div img {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-shadow: 1px 1px 6px #484464;
+    cursor: pointer;
+}
+.arts button{
+    padding: 8px 40px ;
+    border: 3px solid #f3a764;
+    background: none;
+    border-radius: 5px;
+    color: rgb(32, 32, 32);
+    transition: 0.5s;
+    cursor: pointer;
+
+}
+
+
+.arts button:hover{
+    background-color: #f3a764;
+    transition: 0.5s;
+    border: 3px solid #f09a4e;
+}
+.artBtn {
+    text-align: center;
+}
+
+.sectionArt div {
+    margin: 60px 35px;
+    width: 300px;
+    height: 300px;
+
+}
+
+
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    background: #565656;
+    margin-top: 70px;
+}
+
+.top.about{
+    background-image: url(./assests/hakkimdaFOTO.jpeg) ;
+    background-position: bottom;
+}
+.aboutMainP p {
+    text-align: justify;
+    line-height: 37px;
+    margin-left: 30px;
+    font-size: 18px;
+}
+.top.allArts{
+    background-image: url(./assests/projelerBack.jpeg) ;
+    background-position: center;
+}
+.artAll label {
+    color: gray;
+    font-size: 15px;
+    margin: 17px 0px;
+}
+.artAll label span {
+    color: black;
+    font-size: 21px;
+}
+.arts button a {
+    color: rgb(32, 32, 32);
+    text-decoration: none;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;   
+     align-items: center;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+}
+
+.menu ul li a {
+    transition: ease 1s;
+    text-decoration: none;
+}
+
+.menu ul li a:hover {
+    color: black;
+    transition: ease 1s;
+}
+.aboutMe {
+    display: flex;
+    margin: 40px auto;
+    width: 90%;
+    align-items: center;
+}
+.contact {
+    margin: 40px auto;
+    width: 90%;
+}
+.part {
+    display: flex;
+    /* width: 30%; */
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.part label {
+    width: 200px;
+    margin: 8px 0px;
+    font-weight: bold;
+}
+.mePhoto img {
+    width: 350px;
+    padding: 10px;
+    /* border: 1px solid gray; */
+    box-shadow: 0px 0px 4px gray;
+}
+
+
+#büyükResim {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+#büyükResim img {
+    display: block;
+    margin: auto;
+    position: relative;
+    max-width: 90%;
+    max-height: 90%;
+    margin-top: 3%;
+}
+
+.closeBtn{
+    position: absolute;
+    right: 0;
+    width: 50px;
+    border: none;
+    background: #b5b5b5cf;
+    height: 50px;
+    cursor: pointer;
+}
+div#saat {
+    color: white;
+    margin-top: 5px;
+    font-size: 17px;
+}
+.themeMode {
+    border-radius: 50%;
+    border: none;
+    margin-left: 5px;
+    padding: 3px 5px;
+    background: #bfbfbf00;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
+
+.imgTheme{
+    width: 25px;
+}
+
+.themeMode:hover {
+    background: #404040;
+    transition: 0.5s;
+}
