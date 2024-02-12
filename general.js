@@ -31,9 +31,13 @@ function temaDegistir(tema) {
     if (tema === "koyu") {
         arkaPlanRengi = "#333";
         metinRengi = "#fff";
+        backgroundColor = "#919191";
+        boxShadow = "1px 1px 6px #919191";
     } else if (tema === "açık") {
         arkaPlanRengi = "#fff";
         metinRengi = "#333";
+        backgroundColor = "#fff";
+       boxShadow = "1px 1px 6px #484464";
     }
 
     // Sayfadaki öğelerin stillerini güncelle
@@ -45,8 +49,8 @@ function temaDegistir(tema) {
     }
     var resimler = document.querySelectorAll(".sectionArt img");
     resimler.forEach(function(resim) {
-        resim.style.backgroundColor = "#919191";
-        resim.style.boxShadow = "1px 1px 6px #919191";
+        resim.style.backgroundColor = backgroundColor;
+        resim.style.boxShadow = boxShadow;
     });
 }
 
