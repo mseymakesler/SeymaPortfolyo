@@ -1,8 +1,11 @@
 
-var kullanıcıGirişi = prompt("Lütfen adınızı giriniz:");
-alert("Merhaba, " + kullanıcıGirişi + "! Hoş geldiniz!");
+document.addEventListener("DOMContentLoaded", function() {
+    var kullanıcıGirişi = prompt("Lütfen adınızı giriniz:");
+    alert("Merhaba, " + kullanıcıGirişi + "! Hoş geldiniz!");
 
-document.getElementById("nameOfUser").innerHTML= "Hoşgeldin " + kullanıcıGirişi;
+    document.getElementById("nameOfUser").innerHTML= "Hoşgeldin " + kullanıcıGirişi;
+
+});
 
 
 function büyükResmiGöster(imageID) {
